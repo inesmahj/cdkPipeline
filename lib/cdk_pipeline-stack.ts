@@ -7,7 +7,7 @@ import * as codepipeline_actions from '@aws-cdk/aws-codepipeline-actions';
 export class CdkPipelineStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
-
+/*
     const sourceArtifact = new codepipeline.Artifact();
     const cloudAssemblyArtifact = new codepipeline.Artifact();
 
@@ -34,5 +34,8 @@ export class CdkPipelineStack extends Stack {
         buildCommand: 'ls',
       }),
     });
+
+     */
   }
+
 }
