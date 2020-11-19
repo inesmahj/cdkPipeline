@@ -7,12 +7,12 @@ import * as codepipeline_actions from '@aws-cdk/aws-codepipeline-actions';
 export class CdkPipelineStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
-/*
+
     const sourceArtifact = new codepipeline.Artifact();
     const cloudAssemblyArtifact = new codepipeline.Artifact();
 
     const pipeline = new CdkPipeline(this, 'Pipeline', {
-      pipelineName: 'MyAppPipeline',
+      pipelineName: 'InesCdkPipeline',
       cloudAssemblyArtifact,
 
       sourceAction: new codepipeline_actions.GitHubSourceAction({
@@ -31,11 +31,11 @@ export class CdkPipelineStack extends Stack {
 
         // Use this if you need a build step (if you're not using ts-node
         // or if you have TypeScript Lambdas that need to be compiled).
-        buildCommand: 'ls',
+        buildCommand: 'npm run build',
       }),
     });
 
-     */
+     
   }
 
 }
