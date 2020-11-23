@@ -1,3 +1,8 @@
+this project was created by following the  tutorial of cdkpipelines+github+stages
+it invokes a lambda function called by a web service and shows hello from lambda message
+
+
+
 # Welcome to your CDK TypeScript project!
 
 This is a blank project for TypeScript development with CDK.
